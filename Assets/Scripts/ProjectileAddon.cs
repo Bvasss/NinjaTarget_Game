@@ -24,7 +24,15 @@ public class ProjectileAddon : MonoBehaviour
             targetHit = true;
 
         // check if you hit an enemy
-       
+        if(collision.gameObject.GetComponent<BasicEnemy>() != null)
+        {
+            BasicEnemy enemy = collision.gameObject.GetComponent<BasicEnemy>();
+
+            enemy.TakeDamage(damage);
+
+            // destroy projectile
+            Destroy(gameObject);
+        }
 
         // make sure projectile sticks to surface
         rb.isKinematic = true;

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 
 public class ThrowingTutorial : MonoBehaviour
@@ -20,6 +21,11 @@ public class ThrowingTutorial : MonoBehaviour
     public float throwForce;
     public float throwUpwardForce;
 
+    [Header("txt")]
+    public Text textoI;
+    public Text textoA;
+    public Text textoF;
+
     bool readyToThrow;
 
     private void Start()
@@ -31,16 +37,20 @@ public class ThrowingTutorial : MonoBehaviour
 
     private void Update()
     {
-        
+        textoI.text = totalThrows.ToString();
+        textoA.text = throwUpwardForce.ToString();
+        textoF.text = throwForce.ToString();
+    
+
         if (Input.GetKeyDown(KeyCode.R))
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 
-       if(Input.GetKeyDown(KeyCode.Q))
+       if(Input.GetKeyDown(KeyCode.E))
         {
             throwForce = throwForce -5;
         }
 
-         if(Input.GetKeyDown(KeyCode.E))
+         if(Input.GetKeyDown(KeyCode.Q))
         {
             throwForce = throwForce +5;
         }
@@ -59,6 +69,7 @@ public class ThrowingTutorial : MonoBehaviour
         {
             Throw();
         }
+        
     }
 
     private void Throw()
