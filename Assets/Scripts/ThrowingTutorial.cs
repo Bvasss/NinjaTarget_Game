@@ -69,9 +69,17 @@ public class ThrowingTutorial : MonoBehaviour
         {
             Throw();
         }
-        
+        if (totalThrows <=0){
+            CargarGameOver();
+        }
     }
+    
 
+
+       public void CargarGameOver()
+    {
+        SceneManager.LoadScene("Game over");
+    }
     private void Throw()
     {
         readyToThrow = false;

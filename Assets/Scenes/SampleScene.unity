@@ -189,14 +189,14 @@ RectTransform:
   m_GameObject: {fileID: 327278830}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 2067908500}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 361, y: -164}
+  m_AnchoredPosition: {x: 870, y: -377}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &327278832
@@ -232,7 +232,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '0
+  m_Text: '
 
 '
 --- !u!222 &327278833
@@ -340,7 +340,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f015616890d37646a07a2fc56af2d11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 5
+  health: 0
+  puntaje: 0
 --- !u!65 &441223557
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -411,14 +412,14 @@ RectTransform:
   m_GameObject: {fileID: 468858166}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 2067908500}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -360, y: 175}
+  m_AnchoredPosition: {x: -861, y: 406}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &468858168
@@ -454,7 +455,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 0
+  m_Text: 
 --- !u!222 &468858169
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -598,13 +599,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   puntos: 0
-  intentos: 0
-  altitud: 0
-  fuerza: 0
   textoPuntos: {fileID: 1861878336}
-  textoI: {fileID: 468858168}
-  textoA: {fileID: 327278832}
-  textoF: {fileID: 1291228732}
 --- !u!4 &578631691
 Transform:
   m_ObjectHideFlags: 0
@@ -1005,14 +1000,14 @@ RectTransform:
   m_GameObject: {fileID: 1291228730}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 2067908500}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -360, y: -165}
+  m_AnchoredPosition: {x: -861, y: -383}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1291228732
@@ -1234,8 +1229,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 399, y: 233}
-  m_SizeDelta: {x: 800, y: 465}
+  m_AnchoredPosition: {x: 960, y: 540}
+  m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1674393398
 MonoBehaviour:
@@ -1324,14 +1319,14 @@ RectTransform:
   m_GameObject: {fileID: 1861878334}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 2067908500}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 357.5, y: 176}
+  m_AnchoredPosition: {x: 853, y: 403}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1861878336
@@ -1367,7 +1362,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 0
+  m_Text: 
 --- !u!222 &1861878337
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1468,7 +1463,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 1
+  m_UiScaleMode: 0
   m_ReferencePixelsPerUnit: 0
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -1582,7 +1577,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f015616890d37646a07a2fc56af2d11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 5
+  health: 0
+  puntaje: 0
 --- !u!23 &18641665067922407
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2917,6 +2913,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
+  puntaje: 0
 --- !u!65 &6050776566480110548
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3098,6 +3095,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
+  puntaje: 0
 --- !u!65 &7022756179772745131
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3249,6 +3247,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
+  puntaje: 0
 --- !u!65 &7292149003041413765
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3298,6 +3297,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
+  puntaje: 0
 --- !u!65 &7333871486431598200
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3376,6 +3376,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
+  puntaje: 0
 --- !u!65 &7456055417734855501
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3567,6 +3568,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
+  puntaje: 0
 --- !u!65 &7912699318978356838
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3753,6 +3755,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
+  puntaje: 0
 --- !u!65 &8347318786251068952
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3802,6 +3805,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
+  puntaje: 0
 --- !u!65 &8429990219675216212
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3928,6 +3932,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
+  puntaje: 0
 --- !u!65 &9002904673257029213
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3982,6 +3987,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
+  puntaje: 0
 --- !u!65 &9008750448296965500
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4036,6 +4042,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
+  puntaje: 0
 --- !u!65 &9045063048416445683
 BoxCollider:
   m_ObjectHideFlags: 0
